@@ -45,7 +45,7 @@ if ($result -eq [System.Windows.Forms.DialogResult]::OK)
     $x = $textBox.text
     try
     {
-    Add-LocalGroupMember -Group administrators -Member $x@bodyfriend.co.kr -ErrorAction Stop
+    Add-LocalGroupMember -Group administrators -Member $x@server.com -ErrorAction Stop #member domain
     $msg.POpup($resultuser + 
     "Add local admin complet" +
     "Please check if it is on the list above.", 0, "netplwiz", 48)
