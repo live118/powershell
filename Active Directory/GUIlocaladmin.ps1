@@ -76,7 +76,7 @@ if ($result -eq [System.Windows.Forms.DialogResult]::OK)
         $userinfo = "Active Directory ID : " + $x | Out-String
         $domainjoin = "Domain : " + $DomainResult
         $systemedition = "`nEdition : " + $edition
-        Send-MailMessage -Body $resultuser$ipadress$userinfo$domainjoin$systemedition -From 'ADUSER <ID@Gmail.com>' -to 'admin <ID@Gmail.com>' -SmtpServer gw.bodyfriend.co.kr -Subject ADUserjoin
+        Send-MailMessage -Body $resultuser$ipadress$userinfo$domainjoin$systemedition -From 'ADUSER <ID@Gmail.com>' -to 'admin <ID@Gmail.com>' -SmtpServer smtp.server.com -Subject ADUserjoin
         #Invoke-RestMethod -Uri "https://api.telegram.org/chaid/id"
     }
 }
