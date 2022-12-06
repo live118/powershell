@@ -14,3 +14,6 @@ Gui AD computer Join
 Gui AD Add local admin user
 
 DNS랑 smtp 만 변경해서 알아서 
+
+* 해당 EXE로 변환 후 배포하는게 안전 할 것으로 예상됨!
+https://github.com/MScholtes/PS2EXE
