@@ -1,6 +1,7 @@
 
 #HIHIHI
 
+* 도메인 조인을 UI를 사용하여 사용자가 조인할수 있도록 구성함. 
 
 ![image](https://user-images.githubusercontent.com/8411968/194180824-7c201ef9-6944-45ad-9706-70f9164ebc7d.png)
 
