@@ -67,7 +67,7 @@ if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 {
     $user = $textBox.text
     $sendemail = $user+$UPN
-    $scrambledpassword = Get-RandomPassword
+    $scrambledpassword = $Get-RandomPassword
     try{
         Set-ADAccountPassword -Identity $user -Reset -NewPassword (ConvertTo-secureString -AsPlainText $scrambledpassword -Force -ErrorAction Stop)
         #mailSend
