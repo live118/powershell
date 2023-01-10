@@ -4,3 +4,6 @@ disableUser.ps1
 
 enterps.ps1
 * enter-pssession 사용 원격 powershell 프롬포트 연결
+
+getaduser.ps1
+* OU 내부 사용자 csv로 가져오기
