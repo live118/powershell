@@ -39,7 +39,7 @@ $msg = New-Object -ComObject WScript.Shell
 $form.Add_Shown({$textBox.Select()})
 $result = $form.ShowDialog()
 
-$domainName = "domain Name" #input domain name
+$domainName = [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().Name
 
 if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 {
