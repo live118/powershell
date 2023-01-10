@@ -10,3 +10,6 @@ getaduser.ps1
 
 userDateReport.ps1
 * 일정 기간 이상 사용안한 사용자 가져오기 (get-aduser)
+
+disableUser_moveOU.ps1
+* 비활성화된 퇴사자에 대해 퇴사자 OU로 이동
