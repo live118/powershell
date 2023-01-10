@@ -33,7 +33,8 @@ $textBox.Location = New-Object System.Drawing.Point(10,40)
 $textBox.Size = New-Object System.Drawing.Size(260,20)
 $form.Controls.Add($textBox)
 $msg = New-Object -ComObject WScript.Shell
-$dns = 'Domain NAME' #input Domain Name
+$dns = [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().Name
+#input Domain Name
 $form.Topmost = $true
 
 $form.Add_Shown({$textBox.Select()})
