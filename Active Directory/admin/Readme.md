@@ -7,3 +7,6 @@ enterps.ps1
 
 getaduser.ps1
 * OU 내부 사용자 csv로 가져오기
+
+userDateReport.ps1
+* 일정 기간 이상 사용안한 사용자 가져오기 (get-aduser)
