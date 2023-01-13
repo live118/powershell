@@ -40,7 +40,7 @@ $form.Add_Shown({$textBox.Select()})
 $result = $form.ShowDialog()
 
 #Get-CurrentDomain
-$domainName = [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().Name 
+$domainName = "Domain Name"
 
 if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 {
