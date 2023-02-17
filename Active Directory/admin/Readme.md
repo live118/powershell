@@ -13,3 +13,6 @@ userDateReport.ps1
 
 disableUser_moveOU.ps1
 * 비활성화된 퇴사자에 대해 퇴사자 OU로 이동
+
+Export-ADComputerInfoToCsv.ps1
+* 소속된 컴퓨터의 에디션 정보 
